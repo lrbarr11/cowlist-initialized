@@ -1,11 +1,23 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import Search from "./search";
+import axios from "axios";
 
 class App extends React.Component {
+  // constructor(props){
+  //   super(props);
+  //   this.state = {
+  //     cows: []
+  //   }  
+  // }
+
   render() {
     return (
-    <div>Hello World!</div>
-    );
+      <>
+      <div>Cows</div>
+    <Search />
+    </>
+    )
   }
 }
 
